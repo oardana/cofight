@@ -764,7 +764,76 @@
   }
  /* End Of Section Home Lawan Corona */
 
+/*start kebijakan dan privasi*/
+  .terms{
+    width:100%;
+    background-color: white;
+    padding-bottom: 30px;
+  }
+  .terms .contents{
+    width: 90%;
+    margin-left: 5%;
+  }
+  .terms .head-terms{
+    padding-top: 50px;
+  }
+  .terms .head-terms h1{
+    font-family: poppins;
+  }
+  .terms .terms-2{
+    border-radius: 10px;
+    margin-top: 20px;
+    background-color: #3A6EFF;
+    border:1px solid #c0c0c0;
+    padding-bottom: 30px;
+  }
+  .terms .terms-title{
+    width:100%;
+    height:60px;
+    border-bottom: 1px solid #c0c0c0;
+    padding-top: 15px;
+  }
+  .terms .terms-title a{
+    text-decoration: none;
+    color: white;
+    font-family: poppins;
+    padding-left: 50px;
+  }
+  .terms .content-terms{
+    padding-left: 70px;
+    padding-right: 40px;
+    padding-top: 20px;
+  }
+  .terms .content-terms .head-content{
+    list-style-type: upper-alpha;
+    color: white;
+  }
+  .terms .content-terms ol{
+    padding-left: 45px;
+    color: white;
+    font-family: poppins;
+    text-align: justify;
+    font-size: 12px;
+  }
 
+  @media screen and (max-width: 1000px){
+    .terms .content-terms .head-content{
+    list-style-type: upper-alpha;
+    color: white;
+    padding-left: 8px;
+    }
+    .terms .content-terms{
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 20px;
+    }
+    .terms .content-terms ol{
+    padding-left: 30px;
+    color: white;
+    text-align: justify;
+    font-size: 12px;
+    }
+  }
  /* Section Footer */
   .footer {
     background-image: url('./../images/bg-footer.png');
