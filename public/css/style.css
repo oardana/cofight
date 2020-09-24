@@ -1113,3 +1113,212 @@
   }
 
  /* End Of Section Footer */
+
+
+ /* Section Hero Seputar Covid */
+  .hero-seputar-covid {
+    padding: 5rem 4rem 7rem;
+    background-image: url('./../images/bg-hero-seputar-covid.png');
+    background-size: cover;
+    background-position: bottom center;
+    width: 100%;
+    display: flex;
+    align-items: center;
+  }
+
+  .hero-seputar-covid .title-hero-wrapper {
+    flex: 1;
+  }
+
+  .hero-seputar-covid .title-hero-wrapper h4 {
+    font-size: 32px;
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 1rem;
+  }
+
+  .hero-seputar-covid .title-hero-wrapper h3{ 
+    font-size: 36px;
+    font-weight: bold;
+    color: #333;
+    line-height: 0;
+    font-weight: 700;
+  }
+
+  .hero-seputar-covid .title-hero-wrapper h3 span{
+    color: rgb(30, 80, 216);
+    font-size: 36px;
+  }
+
+  .hero-seputar-covid .title-hero-wrapper h2 {
+    font-size: 80px;
+    color: #222;
+  }
+
+  .hero-seputar-covid .title-hero-wrapper p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.35rem;
+    text-indent: 15px;
+    color: #444;
+    margin-bottom: 3rem;
+  }
+
+  .hero-seputar-covid .title-hero-wrapper a {
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 7.5px;
+    padding: .6rem 2.75rem;
+    background-color: rgb(23, 121, 206);
+  }
+
+  .hero-seputar-covid .image-wrapper {
+    flex: 1;
+    padding: 0 2rem;
+  }
+
+  .hero-seputar-covid .image-wrapper img{
+    width: 100%;
+  }
+
+ /* End Of Hero Seputar COVID */
+
+ /* Section what learn about COVID */
+ section.what-learn-about-covid {
+   display: flex;
+   flex-direction: column;
+   margin-top: 2rem;
+ }
+
+ section.what-learn-about-covid .title {
+   text-align: center;
+ }
+
+ section.what-learn-about-covid .title h3 {
+   font-size: 38px;
+   color: #056CC4;
+   margin-bottom: .75rem;
+ }
+
+ section.what-learn-about-covid .title p {
+   font-size: 17px;
+   color: #555;
+ }
+
+ section.what-learn-about-covid .illustration-wrapper {
+   display: flex;
+   margin-top: 3rem;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+ }
+
+ section.what-learn-about-covid .illustration-wrapper .doctor-illustration-wrapper{
+   flex: 1;
+   align-items: center;
+   justify-content: center;
+ }
+
+ section.what-learn-about-covid .illustration-wrapper .doctor-illustration-wrapper .inner{
+   padding: 0 5rem;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+ }
+
+ section.what-learn-about-covid .illustration-wrapper .doctor-illustration-wrapper img{
+   width: 100%;
+ }
+
+ section.what-learn-about-covid .illustration-wrapper .card-info-container {
+  flex: 1;
+  display: flex;
+  align-items: center;
+ }
+
+ section.what-learn-about-covid .illustration-wrapper .card-info-container .inner {
+   display: flex;
+   flex-direction: column;
+   padding: 0 2rem;
+  }
+
+ section.what-learn-about-covid .illustration-wrapper .card-info-container .inner .card {
+   display: flex;
+   align-items: center;
+   background-color: #fff;
+   margin: .75rem 0;
+   border-radius: 30px;
+   padding: 1.35rem 1rem;
+   cursor: pointer;
+   transition: 300ms ease;
+ }
+
+ section.what-learn-about-covid .illustration-wrapper .card-info-container .inner .card:hover {
+  background-color: #2470E0;
+  box-shadow: 3px 2px 10px rgba(104, 104, 104, 1);
+}
+
+ section.what-learn-about-covid .illustration-wrapper .card-info-container .inner .card .illustration {
+   flex: 2;
+ }
+
+ section.what-learn-about-covid .illustration-wrapper .card-info-container .inner .card img{
+  width: 100%;
+ }
+
+ section.what-learn-about-covid .illustration-wrapper .card-info-container .inner .card .text {
+  flex: 6;
+ }
+
+ section.what-learn-about-covid .illustration-wrapper .card-info-container .inner .card .text .inner{
+  padding-left: 2rem;
+ }
+
+ section.what-learn-about-covid .illustration-wrapper .card-info-container .inner .card .text h3{
+  font-size: 18px;
+  color: #000;
+  transition: 300ms ease;
+ }
+
+  section.what-learn-about-covid .illustration-wrapper .card-info-container .inner .card:hover .text h3{
+    font-size: 18px;
+    color: #eee;
+  }
+
+  section.what-learn-about-covid .illustration-wrapper .card-info-container .inner .card .text p{
+    font-size: 15px;
+    color: #000;
+    margin: .5rem 0 1.5rem;
+    transition: 300ms ease;
+  }
+
+  section.what-learn-about-covid .illustration-wrapper .card-info-container .inner .card:hover .text p{
+    font-size: 15px;
+    color: #eee;
+    margin: .5rem 0 1.5rem;
+  }
+
+  section.what-learn-about-covid .illustration-wrapper .card-info-container .inner .card .text a{
+    font-size: 14px;
+    background-color: #2A81EA;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: .4rem 1.75rem;
+    font-weight: 600;
+    transition: 300ms ease;
+  }
+
+  section.what-learn-about-covid .illustration-wrapper .card-info-container .inner .card:hover .text a{
+    font-size: 14px;
+    background-color: #fff;
+    color: #333;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: .4rem 1.75rem;
+    font-weight: 600;
+  }
+
+ /* End Of what learn about COVID */
