@@ -37,6 +37,10 @@
    font-family: 'Nunito Sans', sans-serif;
  }
 
+ .Montserrat {
+  font-family: 'Montserrat', sans-serif;
+ }
+
  .bg-white {
    background-color: white !important;
  }
@@ -51,6 +55,18 @@
 
  .d-none {
    display: none;
+ }
+
+ @media screen and (max-width: 1000px) {
+  .d-none-mobile {
+    display: none !important;
+  }
+ }
+
+ @media screen and (min-width: 1001px) {
+  .d-none-dekstop {
+    display: none !important;
+  }
  }
 
  .mt-0 {
@@ -1183,6 +1199,63 @@
     width: 100%;
   }
 
+  @media screen and (max-width: 1000px) {
+    .hero-seputar-covid {
+      padding: 4rem 2rem 7rem;
+      background-image: url('./../images/bg-hero-seputar-covid.png');
+      background-size: cover;
+      background-position: bottom center;
+      width: 100%;
+      display: flex;
+      flex-direction: column-reverse;
+      align-items: center;
+    }
+  
+    .hero-seputar-covid .title-hero-wrapper {
+      flex: 1;
+      margin-top: 2rem;
+    }
+  
+    .hero-seputar-covid .title-hero-wrapper h4 {
+      font-size: 25px;
+      font-weight: 700;
+      color: #444;
+      margin-bottom: 1rem;
+    }
+  
+    .hero-seputar-covid .title-hero-wrapper h3{ 
+      font-size: 32px;
+      font-weight: bold;
+      color: #444;
+      line-height: 0;
+      font-weight: 600;
+    }
+
+    .hero-seputar-covid .title-hero-wrapper h3 span{
+      font-size: 32px;
+      font-weight: 700;
+    }
+  
+    .hero-seputar-covid .title-hero-wrapper h2 {
+      font-size: 60px;
+      color: #333;
+    }
+  
+    .hero-seputar-covid .title-hero-wrapper p {
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 1.25rem;
+      color: #444;
+      margin-bottom: 2.5rem;
+    }
+  
+    .hero-seputar-covid .title-hero-wrapper a {
+      font-size: 16px;
+      font-weight: 600;
+      padding: .5rem 2.5rem;
+    }
+  }
+
  /* End Of Hero Seputar COVID */
 
  /* Section what learn about COVID */
@@ -1321,4 +1394,697 @@
     font-weight: 600;
   }
 
+  @media screen and (max-width: 1000px) {
+    section.what-learn-about-covid {
+      margin-top: 1rem;
+    }
+
+    section.what-learn-about-covid .title {
+      padding: 0 .5rem;
+    }
+
+    section.what-learn-about-covid .title h3 {
+      font-size: 26px;
+    }
+   
+    section.what-learn-about-covid .title p {
+      font-size: 16px;
+      line-height: 1.4rem;
+      text-indent: 20px;
+      margin-top: 1rem;
+    }
+   
+    section.what-learn-about-covid .illustration-wrapper {
+      margin-top: 1rem;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+   
+    section.what-learn-about-covid .illustration-wrapper .doctor-illustration-wrapper{
+      flex: 1;
+      align-items: center;
+      justify-content: center;
+    }
+   
+    section.what-learn-about-covid .illustration-wrapper .doctor-illustration-wrapper .inner{
+      padding: 0 5rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+   
+    section.what-learn-about-covid .illustration-wrapper .doctor-illustration-wrapper img{
+      width: 100%;
+    }
+   
+    section.what-learn-about-covid .illustration-wrapper .card-info-container {
+     flex: 1;
+     display: flex;
+     align-items: center;
+     margin-top: 1rem;
+    }
+   
+    section.what-learn-about-covid .illustration-wrapper .card-info-container .inner {
+      padding: 0 .75rem;
+     }
+   
+    section.what-learn-about-covid .illustration-wrapper .card-info-container .inner .card {
+      display: flex;
+      align-items: center;
+      margin: .5rem 0;
+      border-radius: 15px;
+      transition: 300ms ease;
+    }
+   
+    section.what-learn-about-covid .illustration-wrapper .card-info-container .inner .card:hover {
+     background-color: #2470E0;
+     box-shadow: 3px 2px 10px rgba(104, 104, 104, 1);
+   }
+   
+    section.what-learn-about-covid .illustration-wrapper .card-info-container .inner .card .illustration {
+      flex: 2;
+    }
+   
+    section.what-learn-about-covid .illustration-wrapper .card-info-container .inner .card img{
+     width: 100%;
+    }
+   
+    section.what-learn-about-covid .illustration-wrapper .card-info-container .inner .card .text {
+     flex: 6;
+    }
+   
+    section.what-learn-about-covid .illustration-wrapper .card-info-container .inner .card .text .inner{
+     padding-left: 2rem;
+    }
+   
+    section.what-learn-about-covid .illustration-wrapper .card-info-container .inner .card .text h3{
+     font-size: 17px;
+     color: #222;
+     transition: 300ms ease;
+    }
+   
+    section.what-learn-about-covid .illustration-wrapper .card-info-container .inner .card:hover .text h3{
+      font-size: 17px;
+      color: #eee;
+    }
+   
+     section.what-learn-about-covid .illustration-wrapper .card-info-container .inner .card .text p{
+       font-size: 14px;
+       color: #444;
+       margin: .5rem 0 1rem;
+       transition: 300ms ease;
+     }
+   
+     section.what-learn-about-covid .illustration-wrapper .card-info-container .inner .card:hover .text p{
+       font-size: 14px;
+       color: #eee;
+       margin: .5rem 0 1rem;
+     }
+   
+     section.what-learn-about-covid .illustration-wrapper .card-info-container .inner .card .text a{
+       font-size: 13px;
+       color: #fff;
+       text-decoration: none;
+       transition: 300ms ease;
+     }
+   
+     section.what-learn-about-covid .illustration-wrapper .card-info-container .inner .card:hover .text a{
+       font-size: 13px;
+     }
+  }
+
  /* End Of what learn about COVID */
+
+
+ /* Section apa itu covid-19 */
+  section.what-covid-19 {
+    background: url('./../images/bg-apa-itu-covid-19.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 10rem 0 4rem;
+  }
+
+  section.what-covid-19 .title {
+    text-align: center;
+    font-size: 28px;
+    color: #444;
+  }
+
+  section.what-covid-19 .title hr {
+    width: 10%;
+    margin-top: 2rem;
+    margin: auto;
+    border: 2px solid #5A9FF1;
+    border-radius: 10px;
+  }
+
+  section.what-covid-19 .explanation-container {
+    display: flex;
+    align-items: center;
+  }
+
+  section.what-covid-19 .explanation-container .text {
+    flex: 1;
+  }
+
+  section.what-covid-19 .explanation-container .text div.wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 4rem;
+  }
+
+  section.what-covid-19 .explanation-container .text .wrapper div span{
+    font-size: 14px;
+    font-weight: 600;
+    color: #eee;
+    padding: .5rem 2rem;
+    background-color: #3A6EFF;
+    border-radius: 30px;
+  }
+
+  section.what-covid-19 .explanation-container .text .wrapper h3 {
+    font-size: 40px;
+    color: #444;
+    margin-top: 1.5rem;
+    line-height: 3rem;
+  }
+
+  section.what-covid-19 .explanation-container .text .wrapper h3 span {
+    display: block;
+    color: #3A6EFF;
+    font-size: 48px;
+  }
+
+  section.what-covid-19 .explanation-container .text .wrapper p {
+    color: #555;
+    font-size: 17px;
+    text-indent: 20px;
+    margin-top: 1rem;
+  }
+
+  section.what-covid-19 .explanation-container .illustration {
+    flex: 1;
+  }
+
+  section.what-covid-19 .explanation-container .illustration .inner{
+    padding: 0 5rem;
+  }
+
+  section.what-covid-19 .explanation-container .illustration img{
+    width: 100%;
+  }
+
+  @media screen and (max-width: 1000px) {
+    section.what-covid-19 {
+      padding: 8rem 0 4rem;
+    }
+  
+    section.what-covid-19 .title {
+      font-size: 20px;
+    }
+  
+    section.what-covid-19 .explanation-container {
+      flex-direction: column-reverse;
+      margin-top: 1.5rem;
+    }
+  
+    section.what-covid-19 .explanation-container .text {
+      flex: 1;
+    }
+  
+    section.what-covid-19 .explanation-container .text div.wrapper {
+      padding: 0 2.2rem;
+    }
+
+    section.what-covid-19 .explanation-container .text .wrapper div {
+      text-align: center;
+      margin-top: 1rem;
+    }
+  
+    section.what-covid-19 .explanation-container .text .wrapper div span{
+      font-size: 13px;
+      color: #eee;
+      padding: .4rem 2rem;
+    }
+  
+    section.what-covid-19 .explanation-container .text .wrapper h3 {
+      font-size: 28px;
+      color: #444;
+      margin-top: 1.8rem;
+      line-height: 2.5rem;
+    }
+  
+    section.what-covid-19 .explanation-container .text .wrapper h3 span {
+      font-size: 42px;
+    }
+
+    section.what-covid-19 .explanation-container .text .wrapper .paragraph-wrap {
+      margin-top: .75rem;
+      text-align: left;
+    }
+  
+    section.what-covid-19 .explanation-container .text .wrapper p {
+      color: #666;
+    }
+
+    section.what-covid-19 .explanation-container .illustration {
+      flex: 1;
+    }
+  
+    section.what-covid-19 .explanation-container .illustration .inner{
+      padding: 0 5rem;
+    }
+  }
+
+ /* End Of Section apa itu covid-19 */
+
+ /* Section gejala covid-19 */
+  section.gejala-covid-19-container {
+    padding: 5rem 0 4rem;
+  }
+
+  section.gejala-covid-19-container .title {
+    text-align: center;
+    font-size: 28px;
+    color: #444;
+  }
+
+  section.gejala-covid-19-container .title hr {
+    width: 10%;
+    margin-top: 2rem;
+    margin: auto;
+    border: 2px solid #5A9FF1;
+    border-radius: 10px;
+  }
+
+  section.gejala-covid-19-container .explanation-container {
+    display: flex;
+    align-items: center;
+  }
+
+  section.gejala-covid-19-container .explanation-container .illustration {
+    flex: 1;
+  }
+
+  section.gejala-covid-19-container .explanation-container .illustration .inner {
+    padding: 2rem 3.3rem;
+  }
+
+  section.gejala-covid-19-container .explanation-container .illustration .inner img{
+    width: 100%;
+  }
+
+  section.gejala-covid-19-container .explanation-container .text {
+    flex: 1;
+  }
+
+  section.gejala-covid-19-container .explanation-container .text .inner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 2rem;
+  }
+
+  section.gejala-covid-19-container .explanation-container .text .inner div span{
+    font-size: 14px;
+    font-weight: 600;
+    color: #eee;
+    padding: .5rem 2rem;
+    background-color: #3A6EFF;
+    border-radius: 30px;
+  }
+
+  section.gejala-covid-19-container .explanation-container .text .inner .desc-wrapper {
+    margin: 1rem 0;
+  }
+
+  section.gejala-covid-19-container .explanation-container .text .inner .desc-wrapper h3{
+    font-size: 40px;
+    color: #444;
+    margin-top: .6rem;
+    padding: 0;
+  }
+
+  section.gejala-covid-19-container .explanation-container .text .inner .desc-wrapper h2{
+    color: #3A6EFF;
+    font-size: 48px;
+    margin-top: -.4rem;
+  }
+
+  section.gejala-covid-19-container .explanation-container .text .inner .desc-wrapper p {
+    color: #555;
+    font-size: 17px;
+    text-indent: 20px;
+    margin-top: .75rem;
+  }
+
+  section.gejala-covid-19-container .explanation-container .text .small-illustration-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  section.gejala-covid-19-container .explanation-container .text .small-illustration-wrapper .small-illustration{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    margin: 1rem 0;
+  }
+
+  section.gejala-covid-19-container .explanation-container .text .small-illustration-wrapper .small-illustration .image-wrapper {
+    flex: 1;
+    padding: 1rem .5;
+  }
+
+  section.gejala-covid-19-container .explanation-container .text .small-illustration-wrapper .small-illustration .text-wrapper {
+    flex: 3;
+    padding: 1rem;
+  }
+
+  section.gejala-covid-19-container .explanation-container .text .small-illustration-wrapper .small-illustration .text-wrapper h4{
+    font-size: 20px;
+    color: rgb(32, 78, 202);
+    font-weight: 600;
+  }
+
+  section.gejala-covid-19-container .explanation-container .text .small-illustration-wrapper .small-illustration .image-wrapper img{
+    width: 100%;
+  }
+
+  @media screen and (max-width: 1000px) {
+    section.gejala-covid-19-container {
+      padding: 3rem 0;
+    }
+  
+    section.gejala-covid-19-container .title {
+      font-size: 20px;
+    }
+  
+    section.gejala-covid-19-container .explanation-container {
+      flex-direction: column;
+    }
+  
+    section.gejala-covid-19-container .explanation-container .illustration {
+      flex: 1;
+    }
+  
+    section.gejala-covid-19-container .explanation-container .illustration .inner {
+      padding: 1rem 3.3rem .75rem;
+    }
+  
+    section.gejala-covid-19-container .explanation-container .text .inner {
+      padding: 0 2rem;
+    }
+  
+    section.gejala-covid-19-container .explanation-container .text .inner .button-wrap {
+      text-align: center;
+    }
+
+    section.gejala-covid-19-container .explanation-container .text .inner div span{
+      font-size: 14px;
+      font-weight: 600;
+      color: #eee;
+      padding: .5rem 2rem;
+      background-color: #3A6EFF;
+      border-radius: 30px;
+    }
+  
+    section.gejala-covid-19-container .explanation-container .text .inner .desc-wrapper {
+      margin: 1.75rem 0;
+    }
+  
+    section.gejala-covid-19-container .explanation-container .text .inner .desc-wrapper h3{
+      font-size: 28px;
+      color: #444;
+      margin-top: 1.8rem;
+      line-height: 2.5rem;
+    }
+  
+    section.gejala-covid-19-container .explanation-container .text .inner .desc-wrapper h2{
+      font-size: 42px;
+      margin-top: -.3rem;
+    }
+  
+    section.gejala-covid-19-container .explanation-container .text .inner .desc-wrapper p {
+      color: #666;
+    }
+  
+    section.gejala-covid-19-container .explanation-container .text .small-illustration-wrapper {
+      margin-top: -.5rem;
+    }
+  
+    section.gejala-covid-19-container .explanation-container .text .small-illustration-wrapper .small-illustration{
+      margin: .5rem 0;
+    }
+  
+    section.gejala-covid-19-container .explanation-container .text .small-illustration-wrapper .small-illustration .image-wrapper {
+      flex: 1;
+      padding: 1rem .5;
+    }
+  
+    section.gejala-covid-19-container .explanation-container .text .small-illustration-wrapper .small-illustration .text-wrapper {
+      flex: 3;
+      padding: 1rem .8rem;
+    }
+  
+    section.gejala-covid-19-container .explanation-container .text .small-illustration-wrapper .small-illustration .text-wrapper h4{
+      font-size: 17px;
+    }
+  }
+ /* End Of Section gejala COVID 19 */
+
+ /* Section Pencegahan */
+ .covid-pencegahan-wrapper {
+   background: url('./../images/bg-pencegahan.png');
+   background-size: cover;
+   background-position: center;
+   display: flex;
+   flex-direction: column;
+   padding: 5rem 0 5rem;
+ }
+
+ .covid-pencegahan-wrapper .title {
+    text-align: center;
+    font-size: 28px;
+    color: #444;
+  }
+
+  .covid-pencegahan-wrapper .title hr {
+    width: 10%;
+    margin-top: 2rem;
+    margin: auto;
+    border: 2px solid #5A9FF1;
+    border-radius: 10px;
+  }
+
+ .covid-pencegahan-wrapper .text {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   text-align: center;
+   justify-content: center;
+   padding: 0 7rem;
+ }
+
+ .covid-pencegahan-wrapper .text span {
+  font-size: 14px;
+  font-weight: 600;
+  color: #eee;
+  padding: .5rem 2rem;
+  background-color: #3A6EFF;
+  border-radius: 30px;
+ }
+
+ .covid-pencegahan-wrapper .text h3 {
+   color: #444;
+   font-size: 24px;
+   margin-top: 2rem;
+ }
+
+ .covid-pencegahan-wrapper .text p {
+  margin-top: .5rem;
+  color: #555;
+ }
+
+ .covid-pencegahan-wrapper .text .image-wrap img {
+   width: 100%;
+ }
+
+ .covid-pencegahan-wrapper .illustration-wrapper {
+  display: flex;
+  align-items: center;
+  margin-top: 3rem;
+  padding: 0 7rem;
+ }
+
+ .covid-pencegahan-wrapper .illustration-wrapper .illustration-hero{
+  order: 2;
+  flex: 2;
+}
+
+.covid-pencegahan-wrapper .illustration-wrapper .illustration-hero .inner {
+  padding: 0 3rem;
+
+}
+
+.covid-pencegahan-wrapper .illustration-wrapper .illustration-hero .inner img{
+  width: 100%;
+}
+
+ .covid-pencegahan-wrapper .illustration-wrapper .how-wrapper.first{
+  order: 1;
+  flex: 1;
+ }
+
+ .covid-pencegahan-wrapper .illustration-wrapper .how-wrapper.second{
+  order: 3;
+  flex: 1;
+ }
+
+ .covid-pencegahan-wrapper .illustration-wrapper .how-wrapper .how {
+   display: flex;
+   align-items: center;
+   margin: 2rem 0;
+ }
+
+ .covid-pencegahan-wrapper .illustration-wrapper .how-wrapper.second .how{
+  display: flex; 
+  flex-direction: row-reverse;
+ }
+
+ .covid-pencegahan-wrapper .illustration-wrapper .how-wrapper .how .image-wrap {
+   flex: 1;
+ }
+
+ .covid-pencegahan-wrapper .illustration-wrapper .how-wrapper .how .image-wrap img{
+   width: 100%;
+ }
+
+ .covid-pencegahan-wrapper .illustration-wrapper .how-wrapper .how .text-wrap {
+  flex: 3;
+  padding: 0 1.5rem;
+ }
+
+ .covid-pencegahan-wrapper .illustration-wrapper .how-wrapper .how .text-wrap h4{
+  color: #1D55CB;
+  font-weight: 600;
+  font-size: 18px;
+ }
+
+ .covid-pencegahan-wrapper .illustration-wrapper .how-wrapper.second .how .text-wrap h4{
+  text-align: right;
+ }
+
+ @media screen and (max-width: 1000px) {
+  .covid-pencegahan-wrapper {
+    padding: 7rem 0 2rem;
+  }
+
+  .covid-pencegahan-wrapper .title {
+    font-size: 20px;
+  }
+ 
+  .covid-pencegahan-wrapper .text {
+    text-align: center;
+    padding: 0 2rem;
+  }
+
+  .covid-pencegahan-wrapper .text .image-wrap {
+    padding: 0 3rem;
+    margin-top: 3rem;
+  }
+
+  .covid-pencegahan-wrapper .text .image-wrap img {
+    width: 100%;
+  }
+ 
+  .covid-pencegahan-wrapper .text span {
+    margin-top: .75rem;
+  }
+ 
+  .covid-pencegahan-wrapper .text h3 {
+    margin-top: 1.5rem;
+    line-height: 1.7rem;
+    font-size: 25px;
+    font-weight: 600;
+    color: #555;
+  }
+
+  .covid-pencegahan-wrapper .text h3 small{
+    display: block;
+    font-size: 32px;
+    color: #3A6EFF;
+    margin-top: .5rem;
+    font-weight: bold;
+  }
+ 
+  .covid-pencegahan-wrapper .text p {
+   margin-top: 1rem;
+   color: #666;
+   text-indent: 20px;
+  }
+ 
+  .covid-pencegahan-wrapper .illustration-wrapper {
+   display: flex;
+   flex-direction: row;
+   align-items: flex-start;
+   margin-top: 0rem;
+   padding: 0 2rem;
+  }
+
+  .covid-pencegahan-wrapper .illustration-wrapper .how-wrapper {
+    flex: 1;
+  }
+
+  .covid-pencegahan-wrapper .illustration-wrapper .how-wrapper.first{
+   order: 1;
+   flex: 1;
+  }
+ 
+  .covid-pencegahan-wrapper .illustration-wrapper .how-wrapper.second{
+   order: 3;
+   flex: 1;
+  }
+ 
+  .covid-pencegahan-wrapper .illustration-wrapper .how-wrapper .how {
+    display: flex;
+    align-items: center;
+    margin: 2rem 0;
+    padding: .2rem;
+  }
+ 
+  .covid-pencegahan-wrapper .illustration-wrapper .how-wrapper.second .how{
+   display: flex; 
+   flex-direction: row;
+  }
+ 
+  .covid-pencegahan-wrapper .illustration-wrapper .how-wrapper .how .image-wrap {
+    flex: 1;
+    padding-right: .75rem;
+  }
+ 
+  .covid-pencegahan-wrapper .illustration-wrapper .how-wrapper .how .image-wrap img{
+    width: 100%;
+  }
+ 
+  .covid-pencegahan-wrapper .illustration-wrapper .how-wrapper .how .text-wrap {
+   flex: 2;
+   padding: 0 0rem;
+  }
+ 
+  .covid-pencegahan-wrapper .illustration-wrapper .how-wrapper .how .text-wrap h4{
+   color: #1D55CB;
+   font-weight: 600;
+   font-size: 14px;
+  }
+ 
+  .covid-pencegahan-wrapper .illustration-wrapper .how-wrapper.second .how .text-wrap h4{
+   text-align: left;
+  }
+ }
+
+
+ /* End Of Section Pencegahan */
