@@ -2086,5 +2086,238 @@
   }
  }
 
-
  /* End Of Section Pencegahan */
+
+ /* Section Hero Update Kasus COVID 19 */
+ section.hero-update-kasus-wrapper {
+   background: url('./../images/bg-hero-update-covid.png');
+   background-size: cover;
+   background-position: bottom center;
+   background-repeat: no-repeat;
+   padding-bottom: 9.1rem;
+ }
+
+ section.hero-update-kasus-wrapper .hero-inner-wrapper {
+  padding: 2rem 2rem;
+  display: flex;
+ }
+
+ section.hero-update-kasus-wrapper .hero-inner-wrapper .hero-title-wrapper {
+   flex: 1;
+   display: flex;
+   align-items: center;
+ }
+
+ section.hero-update-kasus-wrapper .hero-inner-wrapper .hero-title-wrapper .hero-title{
+   padding: 0 2rem;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+ }
+
+ section.hero-update-kasus-wrapper .hero-inner-wrapper .hero-title-wrapper .hero-title h2{
+   color: #fff;
+   font-size: 65px;
+   font-weight: 800;
+ }
+
+ section.hero-update-kasus-wrapper .hero-inner-wrapper .hero-title-wrapper .hero-title p {
+   color: #fff;
+   margin-top: 1rem;
+   color: #eee;
+   text-indent: 20px;
+   font-size: 17px;
+ }
+
+ section.hero-update-kasus-wrapper .hero-inner-wrapper .hero-title-wrapper .hero-title div {
+   margin-top: 3rem;
+ }
+
+ section.hero-update-kasus-wrapper .hero-inner-wrapper .hero-title-wrapper .hero-title div a {
+  color: rgb(57, 127, 226);
+  text-decoration: none;
+  background-color: #fff;
+  padding: .65rem 3rem;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 7.5px;
+  box-shadow: 3px 2px 5px rgba(104, 104, 104, 0.4);
+ }
+
+ section.hero-update-kasus-wrapper .hero-inner-wrapper .illustration-wrapper{
+  flex: 1.25;
+ }
+
+ section.hero-update-kasus-wrapper .hero-inner-wrapper .illustration-wrapper .illustration img{
+   width: 100%;
+ }
+
+ /* End Of Section Update Kasus COVID 19 */
+
+
+ /* Section case card */
+ section.case-card-container {
+   display: flex;
+   background-color: #F8F8F8;
+   padding: 3rem .75rem;
+ }
+
+ section.case-card-container .card {
+   flex: 1;
+   display: flex;
+   color: #fff;
+   margin: 0 1rem;
+   border-radius: 20px;
+   padding: 18px 30px;
+   background-color: #fff;
+   box-shadow: rgba(0, 0, 0, 0.14) 0px 2px 8px 0px;
+   color: #2B2B2B !important;
+   transition: 300ms ease;
+ }
+
+ section.case-card-container .card:hover {
+  cursor: pointer;
+  transform: scale(1.05);
+ }
+
+
+ section.case-card-container .card .image-wrap {
+   padding: 0 .5rem;
+ }
+
+ section.case-card-container .card .image-wrap .inner img{
+   width: 80%;
+ }
+
+ section.case-card-container .card .text-wrap {
+  flex: 1;
+  display: flex;
+ }
+
+ section.case-card-container .card .text-wrap .inner {
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: space-around;
+ }
+
+ section.case-card-container .card .text-wrap .inner h4{
+   margin-top: .35rem;
+ }
+
+ section.case-card-container .card .text-wrap .inner h2{
+   font-size: 38px;
+ }
+
+ /* End Of Section case card */
+
+
+ /* Section table update kasus */
+ section.table-wrapper-container {
+  background-color: #F8F8F8;
+  padding: 1rem 1.75rem;
+ }
+
+ section.table-wrapper-container .inner-table-wrapper {
+  background-color: #fff;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 25px 0px;
+  border-radius: 10px;
+  padding: 0rem 2rem;
+ }
+
+ section.table-wrapper-container .inner-table-wrapper .header .inner {
+   border-bottom: 1.5px solid #eee;
+   padding: 1rem 0;
+ }
+
+ section.table-wrapper-container .inner-table-wrapper .header .inner h3 {
+   color: #2C2C2C;
+   font-weight: 500;
+ }
+
+ section.table-wrapper-container .inner-table-wrapper .table-wrapper .inner {
+   padding: 1rem 0;
+ }
+
+ section.table-wrapper-container .inner-table-wrapper .table-wrapper .inner table{
+   width: 100%;
+   color: #626262;
+ }
+
+ section.table-wrapper-container .inner-table-wrapper .table-wrapper .inner table thead {
+   text-align: left;
+ }
+
+ section.table-wrapper-container .inner-table-wrapper .table-wrapper .inner table thead tr th {
+  padding-bottom: 1rem;
+ }
+
+ section.table-wrapper-container .inner-table-wrapper .table-wrapper .inner table tbody {
+   margin: 1rem 0;
+   overflow-y: scroll !important;
+   scroll-behavior: smooth;
+ }
+
+ section.table-wrapper-container .inner-table-wrapper .table-wrapper .inner table tbody tr td{
+  padding: .5rem 0;
+ }
+
+ section.table-wrapper-container .inner-table-wrapper .table-wrapper .inner table tbody tr:hover td {
+   background-color: #efefef;
+   cursor: pointer;
+ }
+
+ /* End Of Section tanle update kasus */
+  table th{
+  font-size: 20px;
+}
+ table.scroll {
+  width:100%;
+}
+ table.scroll thead {
+  text-align: left;
+  display:table;
+  width:100%;
+}
+ table.scroll tbody {
+  display:block;
+  height:400px;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+  float:left;
+  width:100%; 
+}
+ table.scroll tbody tr {
+  display:table;
+  width:100%;
+}
+ table.scroll th, td {
+  width:30%;
+  text-align: left !important;
+}
+
+ /* Section paragraph update kasus */
+ section.paragraph-update-kasus {
+   padding: 2rem 1.75rem 0;
+   background-color: #F8F8F8;
+   text-align: center;
+ }
+
+ section.paragraph-update-kasus .inner {
+  padding: 0 2rem;
+ }
+
+ section.paragraph-update-kasus .inner  h2{
+  font-size: 32px; 
+  color: #333;
+  font-weight: 800;
+ }
+
+ section.paragraph-update-kasus .inner  p{
+   margin-top: 1.5rem;
+   font-size: 17px;
+   color: #555;
+   padding: 0 5rem;
+ }
+ /* End Of Section paragraph update kasus */
