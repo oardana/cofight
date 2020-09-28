@@ -1134,7 +1134,7 @@
  /* Section Hero Seputar Covid */
   .hero-seputar-covid {
     padding: 5rem 4rem 7rem;
-    background-image: url('./../images/bg-hero-seputar-covid.png');
+    background-image: url('./../images/bg-hero-update-covid.png');
     background-size: cover;
     background-position: bottom center;
     width: 100%;
@@ -1149,14 +1149,14 @@
   .hero-seputar-covid .title-hero-wrapper h4 {
     font-size: 32px;
     font-weight: 700;
-    color: #333;
+    color: #fff;
     margin-bottom: 1rem;
   }
 
   .hero-seputar-covid .title-hero-wrapper h3{ 
     font-size: 36px;
     font-weight: bold;
-    color: #333;
+    color: #fff;
     line-height: 0;
     font-weight: 700;
   }
@@ -1168,7 +1168,8 @@
 
   .hero-seputar-covid .title-hero-wrapper h2 {
     font-size: 80px;
-    color: #222;
+    color: #fff;
+    margin-top: .75rem;
   }
 
   .hero-seputar-covid .title-hero-wrapper p {
@@ -1176,18 +1177,18 @@
     font-weight: 400;
     line-height: 1.35rem;
     text-indent: 15px;
-    color: #444;
+    color: #fff;
     margin-bottom: 3rem;
   }
 
   .hero-seputar-covid .title-hero-wrapper a {
     font-size: 18px;
     font-weight: 600;
-    color: #fff;
+    color: rgb(23, 121, 206);
     text-decoration: none;
     border-radius: 7.5px;
     padding: .6rem 2.75rem;
-    background-color: rgb(23, 121, 206);
+    background-color: #fff;
   }
 
   .hero-seputar-covid .image-wrapper {
@@ -2321,3 +2322,109 @@
    padding: 0 5rem;
  }
  /* End Of Section paragraph update kasus */
+
+
+ /* Section register page */
+ section.register-container {
+  padding: 3rem 33%; 
+  display: flex; 
+  align-items: center; 
+  justify-content: center; 
+  flex-direction: column;
+  background-color: #EFEFEF;
+ }
+
+ section.register-container .form-wrapper {
+  background-color: white;
+  width: 100%;
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 25px 0px;
+  padding: 1rem;
+ }
+
+ section.register-container .form-wrapper .header h1 {
+   text-align: center;
+   color: rgb(36, 89, 233);
+ }
+
+ section.register-container .form-wrapper form {
+  padding: .5rem 1rem 1rem;
+ }
+
+ section.register-container .form-wrapper form .form-group {
+   display: flex;
+   flex-direction: column;
+   margin: 1rem 0;
+ }
+
+ section.register-container .form-wrapper form .form-group label {
+   font-weight: bold;
+   color: #333;
+ }
+
+ section.register-container .form-wrapper form .form-group label span {
+   color: red;
+ }
+
+ section.register-container .form-wrapper form .form-group input {
+  padding: .6rem 1rem;
+  border-radius: 5px;
+  border: none;
+  background-color: #efefef;
+  margin-top: 5px;
+  font-size: 17px;
+  color: #444;
+ }
+
+ section.register-container .form-wrapper form .form-group input.is-invalid {
+   border: 1px solid #ff3838;
+ }
+
+ section.register-container .form-wrapper form .form-group button {
+   border: none;
+   background-color: #056CC4;
+   color: #eee;
+   font-weight: 500;
+   font-size: 17px;
+   padding: .5rem 0;
+   border-radius: 5px;
+   cursor: pointer;
+   transition: all 300ms ease;
+ }
+
+ section.register-container .form-wrapper form .form-group button:hover {
+  background-color: rgb(6, 79, 143);
+ }
+
+ section.register-container .form-wrapper form .has-an-account {
+   text-align: center;
+   color: #333;
+   font-size: 15px;
+ }
+
+ section.register-container .form-wrapper form .has-an-account a{
+   color: rgb(28, 76, 180);
+   text-decoration: none;
+ }
+
+ section.register-container .form-wrapper form .has-an-account a:hover{
+   text-decoration: underline;
+   color: rgb(13, 49, 128);
+ }
+
+ section.register-container .form-wrapper form .form-group .invalid-feedback {
+   color: #ff3838;
+   font-size: 15px;
+   margin-top: 6px;
+ }
+
+
+ /* End Of Section register page */
+
+ /* Start rs Rujukan COVID 19  */
+ .container-hero-rs-rujukan{
+   width: 100%;
+   background-color:white;
+   height: 400px;
+ }
+ .container-
